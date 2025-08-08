@@ -1,0 +1,25 @@
+{
+  "name": "payment-gateway",
+  "version": "1.0.0",
+  "description": "/*  * Procesa pagos por internet con tarjeta de crédito en más de 135 divisas.  * https://stripe.com/es  *   * - Cómo recoger información del usuario.  * - Cómo realizar un cargo asociado a un importe.  * - Gestión de productos y precios.  * - Manejo de errores.  */",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAndresMR/payment-gateway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KAndresMR/payment-gateway/issues"
+  },
+  "homepage": "https://github.com/KAndresMR/payment-gateway#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "stripe": "^18.4.0"
+  }
+}
