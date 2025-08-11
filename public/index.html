@@ -1,0 +1,8 @@
+<button id="checkout-button">Pagar</button>
+<script>
+    document.getElementById('checkout-button').addEventListener('click', async () => {
+        const res = await fetch('/create-checkout-session', { method: 'POST' });
+        const data = await res.json();
+        window.location = data.url; // Redirige a Stripe Checkout
+    });
+</script>
